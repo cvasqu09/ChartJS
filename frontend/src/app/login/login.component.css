@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-button {
+  flex: 1;
+  width: 20%;
+}
+
+.access-button {
+  flex: 1
+}
