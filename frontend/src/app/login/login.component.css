@@ -3,11 +3,11 @@
   flex-direction: column;
 }
 
-.login-button {
+.login-button, .token-button {
   flex: 1;
   width: 20%;
 }
 
-.access-button {
+.access-button, .code {
   flex: 1
 }

@@ -1,6 +1,8 @@
 import { Component, OnInit, OnChanges } from '@angular/core';
 import { Router, ActivatedRoute, Params } from '@angular/router';
 import { URLSearchParams } from '@angular/http';
+import { HttpClient } from 'selenium-webdriver/http';
+import { LoginService } from '../services/login.service';
 
 @Component({
   selector: 'app-login',
@@ -8,14 +10,18 @@ import { URLSearchParams } from '@angular/http';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit, OnChanges {
+  public code: string;
   public accessToken: string;
   public searchParams: URLSearchParams;
-  constructor() {
+
+  constructor(private loginService: LoginService) {
     this.searchParams = new URLSearchParams(window.location.href);
    }
 
   ngOnInit() {
-    this.accessToken = location.href.split('code=')[1];
+    const codeParameter = location.href.split('access_token=')[1];
+    this.code = codeParameter.substr(0, codeParameter.indexOf('&'));
+
     console.log(this.accessToken);
   }
 
@@ -25,6 +31,12 @@ export class LoginComponent implements OnInit, OnChanges {
 
   onLogin() {
     window.location.href = 'http://localhost:8888';
+  }
+
+  onRequestToken() {
+    this.loginService.requestToken().subscribe(token => {
+      console.log(token);
+    });
   }
 
 }
