@@ -1,2 +1,15 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<app-login></app-login>
+<mat-toolbar color="primary" class="container">
+  <div class="title">
+    <span>Spotify Charts</span>
+  </div>
+  <div class="navigation-tabs">
+    <button mat-button routerLink="/songs">
+      <span>Songs</span>
+    </button>
+    <button mat-button routerLink="/playlists">
+      <span>Playlists</span>
+    </button>
+  </div>
+</mat-toolbar>
+<router-outlet></router-outlet>

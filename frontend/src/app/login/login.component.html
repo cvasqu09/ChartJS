@@ -1,13 +1,6 @@
 <mat-card class="container">
   <button class="login-button" mat-raised-button color="primary" (click)="onLogin()">Login</button>
   <mat-form-field>
-    <input matInput class="code" [value]="code">
-  </mat-form-field>
-</mat-card>
-
-<mat-card class="container">
-  <button class="token-button" mat-raised-button color="accent" (click)="onRequestToken()">Request Tokens</button>
-  <mat-form-field>
-    <input matInput class="accessToken" [value]="accessToken">
+    <input matInput class="code" [value]="code" placeholder="Access Token">
   </mat-form-field>
 </mat-card>

@@ -1,0 +1,19 @@
+mat-toolbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.navigation-tabs {
+  display: inline-block;
+  flex: 1;
+  text-align: right;
+}
+
+button {
+  width: auto;
+}
