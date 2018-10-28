@@ -1,0 +1,17 @@
+@import "~/../../../custom-theme.scss";
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+mat-card-title {
+  text-align: center;
+}
+
+.playlist-card {
+  background-color: $primary-color;
+  flex: 1;
+  margin: 0 1rem 0 1rem;
+}

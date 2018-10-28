@@ -9,19 +9,21 @@ import { CookieService } from 'ngx-cookie-service';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
+  styleUrls: ['./login.component.scss']
 })
 export class LoginComponent implements OnInit, OnChanges {
-  public code: string;
   public accessToken: string;
   public searchParams: URLSearchParams;
 
   constructor(private loginService: LoginService, private tokenService: TokenService, private cookieService: CookieService) {
     this.searchParams = new URLSearchParams(window.location.href);
-    this.accessToken = this.tokenService.getToken();
    }
 
   ngOnInit() {
+    if (localStorage.getItem('token')) {
+      this.accessToken = localStorage.getItem('token');
+    }
+
     if (!this.accessToken) {
       const accessToken = location.href.split('access_token=')[1];
       this.accessToken = accessToken.substr(0, accessToken.indexOf('&'));

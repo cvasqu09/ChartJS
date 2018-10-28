@@ -2,7 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { MatButtonModule, MatInputModule, MatFormFieldModule, MatCardModule, MatToolbar, MatToolbarModule } from '@angular/material';
+// tslint:disable-next-line:max-line-length
+import { MatButtonModule, MatInputModule, MatFormFieldModule, MatCardModule, MatToolbar, MatToolbarModule, MatListModule, MatDividerModule } from '@angular/material';
 import { LoginComponent } from './login/login.component';
 import { RouterModule, Routes } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -26,7 +27,7 @@ const routes: Routes = [
     AppComponent,
     LoginComponent,
     PlaylistsComponent,
-    SongsComponent
+    SongsComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,7 +35,9 @@ const routes: Routes = [
     MatInputModule,
     MatFormFieldModule,
     BrowserAnimationsModule,
+    MatDividerModule,
     MatCardModule,
+    MatListModule,
     HttpClientModule,
     MatToolbarModule,
     RouterModule.forRoot(routes),

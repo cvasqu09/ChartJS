@@ -19,7 +19,7 @@ export class PlaylistService {
 
     return this.http.get(environment.SPOTIFY_BASE_WEB_API + '/v1/me/playlists', { headers: headers })
       .pipe(
-        map((res: Object) => {
+        map((res: any) => {
           return res.items;
         }
       ));
