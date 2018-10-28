@@ -3,6 +3,8 @@ import { Router, ActivatedRoute, Params } from '@angular/router';
 import { URLSearchParams } from '@angular/http';
 import { HttpClient } from 'selenium-webdriver/http';
 import { LoginService } from '../services/login.service';
+import { TokenService } from '../services/token.service';
+import { CookieService } from 'ngx-cookie-service';
 
 @Component({
   selector: 'app-login',
@@ -14,15 +16,17 @@ export class LoginComponent implements OnInit, OnChanges {
   public accessToken: string;
   public searchParams: URLSearchParams;
 
-  constructor(private loginService: LoginService) {
+  constructor(private loginService: LoginService, private tokenService: TokenService, private cookieService: CookieService) {
     this.searchParams = new URLSearchParams(window.location.href);
+    this.accessToken = this.tokenService.getToken();
    }
 
   ngOnInit() {
-    const codeParameter = location.href.split('access_token=')[1];
-    this.code = codeParameter.substr(0, codeParameter.indexOf('&'));
-
-    console.log(this.accessToken);
+    if (!this.accessToken) {
+      const accessToken = location.href.split('access_token=')[1];
+      this.accessToken = accessToken.substr(0, accessToken.indexOf('&'));
+      this.tokenService.setToken(accessToken);
+    }
   }
 
   ngOnChanges() {
@@ -35,7 +39,7 @@ export class LoginComponent implements OnInit, OnChanges {
 
   onRequestToken() {
     this.loginService.requestToken().subscribe(token => {
-      console.log(token);
+      console.log('Storing: ' + token);
     });
   }
 

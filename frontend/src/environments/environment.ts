@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  SPOTIFY_BASE_WEB_API: 'https://api.spotify.com'
 };
 
 /*

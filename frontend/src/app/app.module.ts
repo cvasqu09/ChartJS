@@ -6,17 +6,18 @@ import { MatButtonModule, MatInputModule, MatFormFieldModule, MatCardModule, Mat
 import { LoginComponent } from './login/login.component';
 import { RouterModule, Routes } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { LoginService } from './services/login.service';
 import { PlaylistsComponent } from './playlists/playlists.component';
 import { SongsComponent } from './songs/songs.component';
+import { CookieService } from 'ngx-cookie-service';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'songs', component: SongsComponent },
   { path: 'playlists', component: PlaylistsComponent },
-  { path: '', pathMatch: 'full', redirectTo: '/songs'},
-  { path: '**', component: PlaylistsComponent }
+  // { path: '', pathMatch: 'full', redirectTo: '/login'},
+  { path: '**', component: LoginComponent }
 ];
 
 
@@ -38,7 +39,7 @@ const routes: Routes = [
     MatToolbarModule,
     RouterModule.forRoot(routes),
   ],
-  providers: [LoginService],
+  providers: [LoginService, CookieService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
