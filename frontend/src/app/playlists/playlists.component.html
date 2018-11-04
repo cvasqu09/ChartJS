@@ -1,8 +1,17 @@
-<mat-card class="container">
-  <mat-card *ngFor="let playlist of playlists" class="playlist-card">
-    <mat-card-header color="primary">
-      <mat-card-title>{{playlist.name}}</mat-card-title>
-    </mat-card-header>
-    <img mat-card-image [src]="playlist.imageUrl" alt="Playlist image">
+<mat-card class="header">
+  <mat-card-title>Playlists</mat-card-title>
+  <mat-card class="container">
+    <mat-card *ngFor="let playlist of playlists; let playlistIndex = index" class="playlist-card">
+      <mat-card-header color="primary">
+        <mat-card-title>{{playlist.name}}</mat-card-title>
+      </mat-card-header>
+      <img mat-card-image [src]="playlist.imageUrl" alt="Playlist image">
+      <button mat-raised-button color="primary" (click)="onEnter(playlistIndex)">Enter</button>
+
+    </mat-card>
   </mat-card>
+</mat-card>
+
+<mat-card *ngIf="playlistSelected">
+  <app-playlist [playlist]="selectedPlaylist"></app-playlist>
 </mat-card>

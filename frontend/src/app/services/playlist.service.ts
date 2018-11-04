@@ -11,17 +11,20 @@ import { map } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class PlaylistService {
+  headers = new HttpHeaders().append('Authorization', 'Bearer ' + this.tokenService.getToken());
 
   constructor(private http: HttpClient, private tokenService: TokenService) { }
 
   getPlaylists() {
-    const headers = new HttpHeaders().append('Authorization', 'Bearer ' + this.tokenService.getToken());
-
-    return this.http.get(environment.SPOTIFY_BASE_WEB_API + '/v1/me/playlists', { headers: headers })
+    return this.http.get(environment.SPOTIFY_BASE_WEB_API + '/v1/me/playlists', { headers: this.headers })
       .pipe(
         map((res: any) => {
           return res.items;
         }
       ));
+  }
+
+  getPlaylistTracks(tracksUrl: string): Observable<any> {
+    return this.http.get(tracksUrl, { headers: this.headers });
   }
 }

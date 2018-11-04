@@ -10,6 +10,8 @@ import { map } from 'rxjs/operators';
 })
 export class PlaylistsComponent implements OnInit {
   playlists: Playlist[] = [];
+  playlistSelected = false;
+  selectedPlaylist: Playlist = null;
 
   constructor(private playlistService: PlaylistService) { }
 
@@ -19,5 +21,11 @@ export class PlaylistsComponent implements OnInit {
         this.playlists.push(new Playlist(playlist.name, playlist.tracks, playlist.images[0].url));
       });
     });
+  }
+
+  onEnter(playlistIndex: number): void {
+    console.log(this.playlists[playlistIndex]);
+    this.selectedPlaylist = this.playlists[playlistIndex];
+    this.playlistSelected = true;
   }
 }

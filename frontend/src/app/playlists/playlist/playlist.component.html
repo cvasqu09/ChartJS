@@ -1,0 +1,11 @@
+
+<div *ngFor="let song of songs">
+  <mat-card>
+    <mat-card-title>
+      {{song.getName()}}
+    </mat-card-title>
+    <mat-card-content>
+      {{song.getArtistUrl}}
+    </mat-card-content>
+  </mat-card>
+</div>

@@ -21,13 +21,15 @@ export class LoginComponent implements OnInit, OnChanges {
 
   ngOnInit() {
     if (localStorage.getItem('token')) {
-      this.accessToken = localStorage.getItem('token');
+      const token = localStorage.getItem('token');
+      this.accessToken = token.substr(0, token.indexOf('&'));
+      this.tokenService.setToken(this.accessToken);
     }
 
     if (!this.accessToken) {
-      const accessToken = location.href.split('access_token=')[1];
-      this.accessToken = accessToken.substr(0, accessToken.indexOf('&'));
-      this.tokenService.setToken(accessToken);
+      const fullAccessToken = location.href.split('access_token=')[1];
+      this.accessToken = fullAccessToken.substr(0, fullAccessToken.indexOf('&'));
+      this.tokenService.setToken(this.accessToken);
     }
   }
 

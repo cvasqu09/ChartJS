@@ -12,6 +12,8 @@ import { LoginService } from './services/login.service';
 import { PlaylistsComponent } from './playlists/playlists.component';
 import { SongsComponent } from './songs/songs.component';
 import { CookieService } from 'ngx-cookie-service';
+import { PlaylistComponent } from './playlists/playlist/playlist.component';
+import { ArtistComponent } from './artist/artist.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -28,6 +30,8 @@ const routes: Routes = [
     LoginComponent,
     PlaylistsComponent,
     SongsComponent,
+    PlaylistComponent,
+    ArtistComponent,
   ],
   imports: [
     BrowserModule,
