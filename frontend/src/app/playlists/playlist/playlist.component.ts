@@ -1,9 +1,10 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
 import { Playlist } from '../playlist.model';
 import { PlaylistService } from '../../services/playlist.service';
 import { Artist } from '../../artist/artist.model';
 import Song from '../../songs/song.model';
 import { ArtistService } from '../../services/artist.service';
+import { Chart } from 'chart.js';
 
 @Component({
   selector: 'app-playlist',
@@ -15,10 +16,16 @@ export class PlaylistComponent implements OnInit {
   playlist: Playlist = null;
   songs: Song[] = [];
   artists: Artist[] = [];
+  genreChart: Chart = null;
+  // Doughnut
+  public doughnutChartLabels:string[] = ['Download Sales', 'In-Store Sales', 'Mail-Order Sales'];
+  public doughnutChartData:number[] = [350, 450, 100];
+  public doughnutChartType:string = 'doughnut';
 
   constructor(
     private playlistService: PlaylistService,
-    private artistService: ArtistService
+    private artistService: ArtistService,
+    private elementRef: ElementRef
   ) {}
 
   ngOnInit() {
@@ -44,6 +51,17 @@ export class PlaylistComponent implements OnInit {
               );
             });
         });
+
+
       });
+  }
+
+  // events
+  public chartClicked(e:any):void {
+    console.log(e);
+  }
+
+  public chartHovered(e:any):void {
+    console.log(e);
   }
 }

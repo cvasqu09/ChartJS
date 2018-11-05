@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ChartsModule } from 'ng2-charts';
 
 import { AppComponent } from './app.component';
 // tslint:disable-next-line:max-line-length
@@ -35,6 +36,7 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
+    ChartsModule,
     MatButtonModule,
     MatInputModule,
     MatFormFieldModule,
