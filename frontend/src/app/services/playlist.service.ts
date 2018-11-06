@@ -3,7 +3,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { TokenService } from './token.service';
 import { environment } from '../../environments/environment';
 import { Playlist } from '../playlists/playlist.model';
-import { Observable } from 'rxjs';
+import { Observable, BehaviorSubject } from 'rxjs';
 
 import { map } from 'rxjs/operators';
 
@@ -11,6 +11,9 @@ import { map } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class PlaylistService {
+  private playlistSubject: BehaviorSubject<Playlist> = new BehaviorSubject<Playlist>(null);
+  private playlist$: Observable<Playlist> = this.playlistSubject.asObservable();
+
   headers = new HttpHeaders().append('Authorization', 'Bearer ' + this.tokenService.getToken());
 
   constructor(private http: HttpClient, private tokenService: TokenService) { }
@@ -25,6 +28,16 @@ export class PlaylistService {
   }
 
   getPlaylistTracks(tracksUrl: string): Observable<any> {
-    return this.http.get(tracksUrl, { headers: this.headers });
+    return this.http.get(tracksUrl, { headers: this.headers }).pipe(
+      map((response: any) => response.items)
+    );
+  }
+
+  editSelectedPlaylist(newPlaylist: Playlist): void {
+    this.playlistSubject.next(newPlaylist);
+  }
+
+  playlistObs(): Observable<Playlist> {
+    return this.playlist$;
   }
 }

@@ -26,6 +26,7 @@ export class PlaylistsComponent implements OnInit {
   onEnter(playlistIndex: number): void {
     console.log(this.playlists[playlistIndex]);
     this.selectedPlaylist = this.playlists[playlistIndex];
+    this.playlistService.editSelectedPlaylist(this.selectedPlaylist);
     this.playlistSelected = true;
   }
 }

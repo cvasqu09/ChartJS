@@ -1,9 +1,20 @@
+<button mat-raised-button (click)="onBreakdown()">See Genre Breakdown</button>
 
-<div style="display: block">
-<canvas baseChart
-[data]="doughnutChartData"
-[labels]="doughnutChartLabels"
-[chartType]="doughnutChartType"
-(chartHover)="chartHovered($event)"
-(chartClick)="chartClicked($event)"></canvas>
+<mat-card class="chart" *ngIf="isChartDataPopulated">
+  <canvas baseChart [data]="doughnutChartData" [labels]="doughnutChartLabels" [chartType]="doughnutChartType"></canvas>
+</mat-card>
+<div *ngIf="songs">
+  <mat-card *ngFor="let song of songs">
+    <mat-card-title>
+      {{song.getName()}}
+    </mat-card-title>
+  </mat-card>
 </div>
+<div *ngIf="artists">
+  <mat-card *ngFor="let artist of artists">
+    <mat-card-title>
+      {{artist.getName()}}
+    </mat-card-title>
+  </mat-card>
+</div>
+
