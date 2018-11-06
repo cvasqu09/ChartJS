@@ -15,7 +15,7 @@ import Song from '../../songs/song.model';
 import { ArtistService } from '../../services/artist.service';
 import { Chart } from 'chart.js';
 import { of, Observable } from 'rxjs';
-import { map, switchMap } from 'rxjs/operators';
+import { map, switchMap, mergeMap } from 'rxjs/operators';
 
 @Component({
   selector: 'app-playlist',
@@ -43,36 +43,26 @@ export class PlaylistComponent implements OnInit, OnChanges {
 
   ngOnInit() {
     this.playlistService.playlistObs().subscribe((playlist: Playlist) => {
-      this.isChartDataPopulated = false;
-      this.doughnutChartLabels = [];
-      this.doughnutChartData = [];
-      this.genreCount = {};
-
+      this.resetChart();
       this.selectedPlaylist = playlist;
-
-      this.playlistService.getPlaylistTracks(this.selectedPlaylist.getTracksUrl())
-        .subscribe(items => {
-          items.forEach(item => {
-            const artist = item.track.artists[0];
-            this.songs.push(new Song(item.track.name, artist.href));
-            return this.artistService
-              .getArtist(artist.href)
-              .subscribe((result: any) => {
-                const newArtist = new Artist(
-                  result.name,
-                  result.href,
-                  result.genres
-                );
-                newArtist.getGenres().forEach((genre: string) => {
-                  if (!this.genreCount[genre]) {
-                    this.genreCount[genre] = 1;
-                  } else {
-                    this.genreCount[genre]++;
-                  }
-                });
-                this.artists.push(newArtist);
-              });
+      this.playlistService
+        .getPlaylistTracks(this.selectedPlaylist.getTracksUrl())
+        .pipe(
+          map(returnedTrack => {
+            const artist = returnedTrack.track.artists[0];
+            this.songs.push(new Song(returnedTrack.track.name, artist.href));
+            return returnedTrack;
+          }),
+          mergeMap((returnedTrack: any) => {
+            return this.artistService.getArtist(returnedTrack.track.artists[0].href);
+          })
+        )
+        .subscribe((artist: any) => {
+          const newArtist = new Artist(artist.name, artist.href, artist.genres);
+          newArtist.getGenres().forEach((genre: string) => {
+            this.updateGenreCount(genre);
           });
+          this.artists.push(newArtist);
         });
     });
   }
@@ -88,7 +78,7 @@ export class PlaylistComponent implements OnInit, OnChanges {
     this.isChartDataPopulated = true;
   }
 
-  private countGenre(genre: string): void {
+  private updateGenreCount(genre: string): void {
     if (!this.genreCount[genre]) {
       this.genreCount[genre] = 1;
     } else {
@@ -103,5 +93,12 @@ export class PlaylistComponent implements OnInit, OnChanges {
 
   public chartHovered(e: any): void {
     console.log(e);
+  }
+
+  private resetChart() {
+    this.isChartDataPopulated = false;
+    this.doughnutChartLabels = [];
+    this.doughnutChartData = [];
+    this.genreCount = {};
   }
 }
