@@ -20,7 +20,6 @@ export class LoginComponent implements OnInit, OnChanges {
    }
 
   ngOnInit() {
-    debugger;
     if (!localStorage.getItem('token')) {
       const fullAccessToken = location.href.split('access_token=')[1];
       this.accessToken = fullAccessToken.substr(0, fullAccessToken.indexOf('&'));
@@ -34,7 +33,7 @@ export class LoginComponent implements OnInit, OnChanges {
     console.log(location.href);
   }
 
-  onLogin() {
+  onLogin(): void {
     window.location.href = 'http://localhost:8888';
   }
 
@@ -44,7 +43,7 @@ export class LoginComponent implements OnInit, OnChanges {
     });
   }
 
-  onClearToken() {
+  onClearToken(): void {
     localStorage.removeItem('token');
   }
 

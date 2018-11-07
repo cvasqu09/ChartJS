@@ -2,6 +2,8 @@
   <mat-form-field>
     <input matInput class="access-token" [value]="accessToken" placeholder="Access Token">
   </mat-form-field>
-  <button class="login-button" mat-raised-button color="primary" (click)="onLogin()">Login</button>
-  <button mat-raised-button color="secondary" (click)="onClearToken()">Clear Token</button>
+  <div fxLayout="row" fxLayoutAlign="start start" fxLayoutGap="1rem">
+    <button fxFlex="20%" class="login-button" mat-raised-button color="primary" (click)="onLogin()">Login</button>
+    <button fxFlex="20%" class="token-button" mat-raised-button color="secondary" (click)="onClearToken()">Clear Token</button>
+  </div>
 </mat-card>
