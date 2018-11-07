@@ -1,6 +1,7 @@
 <mat-card class="container">
-  <button class="login-button" mat-raised-button color="primary" (click)="onLogin()">Login</button>
   <mat-form-field>
     <input matInput class="access-token" [value]="accessToken" placeholder="Access Token">
   </mat-form-field>
+  <button class="login-button" mat-raised-button color="primary" (click)="onLogin()">Login</button>
+  <button mat-raised-button color="secondary" (click)="onClearToken()">Clear Token</button>
 </mat-card>

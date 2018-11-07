@@ -20,16 +20,13 @@ export class LoginComponent implements OnInit, OnChanges {
    }
 
   ngOnInit() {
-    if (localStorage.getItem('token')) {
-      const token = localStorage.getItem('token');
-      this.accessToken = token.substr(0, token.indexOf('&'));
-      this.tokenService.setToken(this.accessToken);
-    }
-
-    if (!this.accessToken) {
+    debugger;
+    if (!localStorage.getItem('token')) {
       const fullAccessToken = location.href.split('access_token=')[1];
       this.accessToken = fullAccessToken.substr(0, fullAccessToken.indexOf('&'));
       this.tokenService.setToken(this.accessToken);
+    } else {
+      this.accessToken = localStorage.getItem('token');
     }
   }
 
@@ -45,6 +42,10 @@ export class LoginComponent implements OnInit, OnChanges {
     this.loginService.requestToken().subscribe(token => {
       console.log('Storing: ' + token);
     });
+  }
+
+  onClearToken() {
+    localStorage.removeItem('token');
   }
 
 }
