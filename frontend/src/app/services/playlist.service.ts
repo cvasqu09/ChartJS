@@ -23,7 +23,7 @@ export class PlaylistService {
       .pipe(
         map((res: any) => {
           const items = res.items;
-          return from(items);
+          return items;
         })
       );
   }

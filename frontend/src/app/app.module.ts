@@ -1,10 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ChartsModule } from 'ng2-charts';
+import {FlexLayoutModule} from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
 // tslint:disable-next-line:max-line-length
-import { MatButtonModule, MatInputModule, MatFormFieldModule, MatCardModule, MatToolbar, MatToolbarModule, MatListModule, MatDividerModule } from '@angular/material';
+import { MatButtonModule, MatInputModule, MatFormFieldModule, MatCardModule, MatToolbar, MatToolbarModule, MatListModule, MatDividerModule, MatIconModule } from '@angular/material';
 import { LoginComponent } from './login/login.component';
 import { RouterModule, Routes } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -46,6 +47,8 @@ const routes: Routes = [
     MatListModule,
     HttpClientModule,
     MatToolbarModule,
+    MatIconModule,
+    FlexLayoutModule,
     RouterModule.forRoot(routes),
   ],
   providers: [LoginService, CookieService],

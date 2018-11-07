@@ -22,7 +22,7 @@ import { map, switchMap, mergeMap } from 'rxjs/operators';
   templateUrl: './playlist.component.html',
   styleUrls: ['./playlist.component.scss']
 })
-export class PlaylistComponent implements OnInit, OnChanges {
+export class PlaylistComponent implements OnInit {
   songs: Song[] = [];
   artists: Artist[] = [];
   genreChart: Chart = null;
@@ -71,8 +71,12 @@ export class PlaylistComponent implements OnInit, OnChanges {
     this.setChartOptions();
   }
 
+  onCloseChart(): void {
+    this.selectedPlaylist = null;
+    this.resetChart();
+  }
+
   private setChartOptions(): void {
-    console.log(this.artists);
     this.doughnutChartLabels = Object.keys(this.genreCount);
     this.doughnutChartData = Object.values(this.genreCount);
     this.isChartDataPopulated = true;
@@ -99,6 +103,8 @@ export class PlaylistComponent implements OnInit, OnChanges {
     this.isChartDataPopulated = false;
     this.doughnutChartLabels = [];
     this.doughnutChartData = [];
+    this.artists = [];
+    this.songs = [];
     this.genreCount = {};
   }
 }

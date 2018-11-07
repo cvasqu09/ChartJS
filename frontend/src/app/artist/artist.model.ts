@@ -1,5 +1,5 @@
 export class Artist {
-  constructor(private name: string, private artistUrl: string, private genres: []) {}
+  constructor(private name: string, private artistUrl: string, private genres: string[]) {}
 
   public getName(): string {
     return this.name;
@@ -9,7 +9,7 @@ export class Artist {
     return this.artistUrl;
   }
 
-  public getGenres(): [] {
+  public getGenres(): string[] {
     return this.genres;
   }
 }
