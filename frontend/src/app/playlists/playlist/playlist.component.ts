@@ -16,6 +16,12 @@ import { ArtistService } from '../../services/artist.service';
 import { Chart } from 'chart.js';
 import { of, Observable } from 'rxjs';
 import { map, switchMap, mergeMap } from 'rxjs/operators';
+import { MatTableDataSource, MatPaginator } from '@angular/material';
+
+interface ArtistSong {
+  artist: Artist;
+  song: Song;
+}
 
 @Component({
   selector: 'app-playlist',
@@ -25,6 +31,12 @@ import { map, switchMap, mergeMap } from 'rxjs/operators';
 export class PlaylistComponent implements OnInit {
   songs: Song[] = [];
   artists: Artist[] = [];
+
+  // Mat Table
+  @ViewChild(MatPaginator) paginator: MatPaginator;
+  columns: string[] = ['artist', 'song'];
+  dataSource: MatTableDataSource<ArtistSong>;
+
   genreChart: Chart = null;
   // Doughnut
   public doughnutChartLabels: string[] = [];
@@ -63,6 +75,13 @@ export class PlaylistComponent implements OnInit {
             this.updateGenreCount(genre);
           });
           this.artists.push(newArtist);
+
+          const artistSongs: ArtistSong[] = this.artists.map((v, i) => {
+            return {artist: v, song: this.songs[i]};
+          });
+
+          this.dataSource = new MatTableDataSource<ArtistSong>(artistSongs);
+          this.dataSource.paginator = this.paginator;
         });
     });
   }

@@ -1,23 +1,35 @@
-<div fxLayout="row" fxLayoutAlign="space-between stretch" class="mb-75" style="height: 3.5rem" *ngIf="selectedPlaylist">
-  <button mat-raised-button (click)="onBreakdown()">See Genre Breakdown</button>
-  <button mat-fab color="warn" *ngIf="isChartDataPopulated" (click)="onCloseChart()">
-    <mat-icon aria-label="Close button">close</mat-icon>
-  </button>
-</div>
-<mat-card class="chart" *ngIf="isChartDataPopulated">
-  <canvas baseChart [data]="doughnutChartData" [labels]="doughnutChartLabels" [chartType]="doughnutChartType"></canvas>
+<mat-card>
+  <div fxLayout="row" fxLayoutAlign="space-between stretch" class="mb-75" style="height: 3.5rem" *ngIf="selectedPlaylist">
+    <button mat-raised-button (click)="onBreakdown()">See Genre Breakdown</button>
+    <button mat-fab color="warn" *ngIf="isChartDataPopulated" (click)="onCloseChart()">
+      <mat-icon aria-label="Close button">close</mat-icon>
+    </button>
+  </div>
+  <mat-card class="chart" *ngIf="isChartDataPopulated">
+    <canvas baseChart [data]="doughnutChartData" [labels]="doughnutChartLabels" [chartType]="doughnutChartType"></canvas>
+  </mat-card>
+
+  <table mat-table [dataSource]="dataSource" *ngIf="artists">
+    <ng-container matColumnDef="artist">
+      <th mat-header-cell *matHeaderCellDef>Artist</th>
+      <td mat-cell *matCellDef="let artistSong">{{artistSong.artist.getName()}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="song">
+      <th mat-header-cell *matHeaderCellDef>Song</th>
+      <td mat-cell *matCellDef="let artistSong">{{artistSong.song.getName()}}</td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="columns"></tr>
+    <tr mat-row *matRowDef="let row; columns: columns;"></tr>
+  </table>
+  <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
+
+  <!-- <div *ngIf="songs">
+    <mat-card *ngFor="let song of songs">
+      <mat-card-title>
+        {{song.getName()}}
+      </mat-card-title>
+    </mat-card>
+  </div> -->
 </mat-card>
-<div *ngIf="songs">
-  <mat-card *ngFor="let song of songs">
-    <mat-card-title>
-      {{song.getName()}}
-    </mat-card-title>
-  </mat-card>
-</div>
-<div *ngIf="artists">
-  <mat-card *ngFor="let artist of artists">
-    <mat-card-title>
-      {{artist.getName()}}
-    </mat-card-title>
-  </mat-card>
-</div>
