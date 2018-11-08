@@ -24,7 +24,8 @@ export class PlaylistService {
         map((res: any) => {
           const items = res.items;
           return items;
-        })
+        }),
+        concatAll()
       );
   }
 
