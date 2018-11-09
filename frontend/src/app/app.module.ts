@@ -16,6 +16,7 @@ import { SongsComponent } from './songs/songs.component';
 import { CookieService } from 'ngx-cookie-service';
 import { PlaylistComponent } from './playlists/playlist/playlist.component';
 import { ArtistComponent } from './artist/artist.component';
+import { playlistServiceProvider } from './services/playlist.provider';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -53,7 +54,7 @@ const routes: Routes = [
     MatPaginatorModule,
     RouterModule.forRoot(routes),
   ],
-  providers: [LoginService, CookieService],
+  providers: [LoginService, CookieService, playlistServiceProvider],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
