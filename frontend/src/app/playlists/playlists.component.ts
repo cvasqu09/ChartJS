@@ -13,14 +13,19 @@ export class PlaylistsComponent implements OnInit {
   playlistSelected = false;
   selectedPlaylist: Playlist = null;
 
-  constructor(private playlistService: PlaylistService) { }
+  constructor(private playlistService: PlaylistService) {}
 
   ngOnInit() {
-    this.playlistService.getPlaylists().subscribe((playlists: Playlist[]) => {
-      playlists.forEach((playlist: any) => {
-        this.playlists.push(new Playlist(playlist.name, playlist.tracks, playlist.images[0].url));
+    this.playlistService
+      .getPlaylists()
+      .pipe(
+        map((playlist: any) => {
+          return new Playlist(playlist.name, playlist.tracks, playlist.images[0].url);
+        })
+      )
+      .subscribe((playlist: Playlist) => {
+        this.playlists.push(playlist);
       });
-    });
   }
 
   onEnter(playlistIndex: number): void {

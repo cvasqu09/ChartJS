@@ -62,7 +62,7 @@ export class PlaylistComponent implements OnInit {
         .pipe(
           map(returnedTrack => {
             const artist = returnedTrack.track.artists[0];
-            this.songs.push(new Song(returnedTrack.track.name, artist.href));
+            this.songs.push(new Song(returnedTrack.track.name, artist.href, returnedTrack.track.popularity));
             return returnedTrack;
           }),
           mergeMap((returnedTrack: any) => {

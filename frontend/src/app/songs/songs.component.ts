@@ -16,20 +16,24 @@ export class SongsComponent implements OnInit {
   constructor(private playlistService: PlaylistService) { }
 
   ngOnInit() {
-    this.playlistService.getPlaylists().pipe(
-      map((playlist: any) => {
-        return new Playlist(playlist.name, playlist.tracks, playlist.images[0].url);
-      }),
-      mergeMap((playlist: Playlist) => {
-        return this.playlistService.getPlaylistTracks(playlist.getTracksUrl());
-      }),
-      map(track => {
-        return new Song(track.track.name, track.track.artists[0].href);
-      })
-    )
-    .subscribe((song: Song) => {
+    // this.playlistService.getPlaylists().pipe(
+    //   map((playlist: any) => {
+    //     return new Playlist(playlist.name, playlist.tracks, playlist.images[0].url);
+    //   }),
+    //   mergeMap((playlist: Playlist) => {
+    //     return this.playlistService.getPlaylistTracks(playlist.getTracksUrl());
+    //   }),
+    //   map(track => {
+    //     return new Song(track.track.name, track.track.artists[0].href, track.track.popularity);
+    //   })
+    // )
+    // .subscribe((song: Song) => {
+    //   this.songs.push(song);
+    //   console.log(JSON.stringify(song));
+    // });
+
+    this.playlistService.getStaticSongs().subscribe(song => {
       this.songs.push(song);
-      console.log(JSON.stringify(song));
     });
   }
 

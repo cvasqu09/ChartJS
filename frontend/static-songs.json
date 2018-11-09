@@ -1,0 +1,1309 @@
+{
+  "songs": [
+    {
+      "name": "I'll Be Your Reason",
+      "artistUrl": "https://api.spotify.com/v1/artists/45eNHdiiabvmbp4erw26rg",
+      "popularity": 46
+    },
+    {
+      "name": "Lost",
+      "artistUrl": "https://api.spotify.com/v1/artists/45eNHdiiabvmbp4erw26rg",
+      "popularity": 61
+    },
+    {
+      "name": "Where'd U Go",
+      "artistUrl": "https://api.spotify.com/v1/artists/45eNHdiiabvmbp4erw26rg",
+      "popularity": 61
+    },
+    {
+      "name": "Free Fall",
+      "artistUrl": "https://api.spotify.com/v1/artists/45eNHdiiabvmbp4erw26rg",
+      "popularity": 57
+    },
+    {
+      "name": "Say It",
+      "artistUrl": "https://api.spotify.com/v1/artists/6SnMMbLQ4iS8WIyt3ksmCR",
+      "popularity": 34
+    },
+    {
+      "name": "Remember the Time",
+      "artistUrl": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+      "popularity": 72
+    },
+    {
+      "name": "Poison",
+      "artistUrl": "https://api.spotify.com/v1/artists/2zFZiWQJFFshzojycnXoTL",
+      "popularity": 66
+    },
+    {
+      "name": "Human Nature",
+      "artistUrl": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+      "popularity": 65
+    },
+    {
+      "name": "I Want You Back",
+      "artistUrl": "https://api.spotify.com/v1/artists/2iE18Oxc8YSumAU232n4rW",
+      "popularity": 68
+    },
+    {
+      "name": "I'll Be There",
+      "artistUrl": "https://api.spotify.com/v1/artists/2iE18Oxc8YSumAU232n4rW",
+      "popularity": 65
+    },
+    {
+      "name": "Foolish",
+      "artistUrl": "https://api.spotify.com/v1/artists/5rkVyNGXEgeUqKkB5ccK83",
+      "popularity": 71
+    },
+    {
+      "name": "What's Luv? (feat. Ja-Rule & Ashanti)",
+      "artistUrl": "https://api.spotify.com/v1/artists/3ScY9CQxNLQei8Umvpx5g6",
+      "popularity": 73
+    },
+    {
+      "name": "Foolish",
+      "artistUrl": "https://api.spotify.com/v1/artists/5rkVyNGXEgeUqKkB5ccK83",
+      "popularity": 71
+    },
+    {
+      "name": "Rock Wit U (Awww Baby)",
+      "artistUrl": "https://api.spotify.com/v1/artists/5rkVyNGXEgeUqKkB5ccK83",
+      "popularity": 63
+    },
+    {
+      "name": "Always On Time",
+      "artistUrl": "https://api.spotify.com/v1/artists/1J2VVASYAamtQ3Bt8wGgA6",
+      "popularity": 72
+    },
+    {
+      "name": "All I Do Is Think Of You",
+      "artistUrl": "https://api.spotify.com/v1/artists/5r7mGejWrGSxheAYEIfSwI",
+      "popularity": 55
+    },
+    {
+      "name": "Ignition - Remix",
+      "artistUrl": "https://api.spotify.com/v1/artists/2mxe0TnaNL039ysAj51xPQ",
+      "popularity": 68
+    },
+    {
+      "name": "Bump n' Grind",
+      "artistUrl": "https://api.spotify.com/v1/artists/2mxe0TnaNL039ysAj51xPQ",
+      "popularity": 64
+    },
+    {
+      "name": "Buy U a Drank (Shawty Snappin')",
+      "artistUrl": "https://api.spotify.com/v1/artists/3aQeKQSyrW4qWr35idm0cy",
+      "popularity": 76
+    },
+    {
+      "name": "U Remind Me",
+      "artistUrl": "https://api.spotify.com/v1/artists/23zg3TcAtWQy7J6upgbUnj",
+      "popularity": 75
+    },
+    {
+      "name": "Let Me Love You",
+      "artistUrl": "https://api.spotify.com/v1/artists/20s0P9QLxGqKuCsGwFsp7w",
+      "popularity": 79
+    },
+    {
+      "name": "We Belong Together",
+      "artistUrl": "https://api.spotify.com/v1/artists/4iHNK0tOyZPYnBU7nGAgpQ",
+      "popularity": 71
+    },
+    {
+      "name": "Differences",
+      "artistUrl": "https://api.spotify.com/v1/artists/7r8RF1tN2A4CiGEplkp1oP",
+      "popularity": 69
+    },
+    {
+      "name": "Bump, Bump, Bump",
+      "artistUrl": "https://api.spotify.com/v1/artists/51d3rUlLuMh7EW09aMe7yj",
+      "popularity": 67
+    },
+    {
+      "name": "Yo (Excuse Me Miss)",
+      "artistUrl": "https://api.spotify.com/v1/artists/7bXgB6jMjp9ATFy66eO08Z",
+      "popularity": 69
+    },
+    {
+      "name": "Slow Down - 12\" Version",
+      "artistUrl": "https://api.spotify.com/v1/artists/4HgF4KnohByNElYid7iCNb",
+      "popularity": 67
+    },
+    {
+      "name": "Where the Party At",
+      "artistUrl": "https://api.spotify.com/v1/artists/7Aq8lpLMSt1Zxu56pe9bmp",
+      "popularity": 69
+    },
+    {
+      "name": "Hit 'Em Up Style (Oops!) - Remix Radio Mix",
+      "artistUrl": "https://api.spotify.com/v1/artists/6vytZ677lz4LzCrUDcDokM",
+      "popularity": 63
+    },
+    {
+      "name": "Energy",
+      "artistUrl": "https://api.spotify.com/v1/artists/3TVXtAsR1Inumwj472S9r4",
+      "popularity": 71
+    },
+    {
+      "name": "Started From The Bottom",
+      "artistUrl": "https://api.spotify.com/v1/artists/3TVXtAsR1Inumwj472S9r4",
+      "popularity": 68
+    },
+    {
+      "name": "The Trillest",
+      "artistUrl": "https://api.spotify.com/v1/artists/20sxb77xiYeusSH8cVdatc",
+      "popularity": 46
+    },
+    {
+      "name": "Lord Knows (feat. Tory Lanez)",
+      "artistUrl": "https://api.spotify.com/v1/artists/20sxb77xiYeusSH8cVdatc",
+      "popularity": 62
+    },
+    {
+      "name": "No Tellin'",
+      "artistUrl": "https://api.spotify.com/v1/artists/3TVXtAsR1Inumwj472S9r4",
+      "popularity": 63
+    },
+    {
+      "name": "DNA.",
+      "artistUrl": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+      "popularity": 81
+    },
+    {
+      "name": "HUMBLE.",
+      "artistUrl": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+      "popularity": 86
+    },
+    {
+      "name": "ELEMENT.",
+      "artistUrl": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+      "popularity": 74
+    },
+    {
+      "name": "LOVE. FEAT. ZACARI.",
+      "artistUrl": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+      "popularity": 81
+    },
+    {
+      "name": "LOYALTY. FEAT. RIHANNA.",
+      "artistUrl": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+      "popularity": 76
+    },
+    {
+      "name": "First Day Out",
+      "artistUrl": "https://api.spotify.com/v1/artists/6AUl0ykLLpvTktob97x9hO",
+      "popularity": 75
+    },
+    {
+      "name": "Ambitionz Az A Ridah",
+      "artistUrl": "https://api.spotify.com/v1/artists/1ZwdS5xdxEREPySFridCfh",
+      "popularity": 79
+    },
+    {
+      "name": "Changes",
+      "artistUrl": "https://api.spotify.com/v1/artists/1ZwdS5xdxEREPySFridCfh",
+      "popularity": 60
+    },
+    {
+      "name": "Letter 2 My Unborn",
+      "artistUrl": "https://api.spotify.com/v1/artists/1ZwdS5xdxEREPySFridCfh",
+      "popularity": 47
+    },
+    {
+      "name": "Until The End Of Time",
+      "artistUrl": "https://api.spotify.com/v1/artists/1ZwdS5xdxEREPySFridCfh",
+      "popularity": 49
+    },
+    {
+      "name": "Never Had A Friend Like Me",
+      "artistUrl": "https://api.spotify.com/v1/artists/1ZwdS5xdxEREPySFridCfh",
+      "popularity": 47
+    },
+    {
+      "name": "Money Trees",
+      "artistUrl": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+      "popularity": 41
+    },
+    {
+      "name": "Poetic Justice",
+      "artistUrl": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+      "popularity": 41
+    },
+    {
+      "name": "Energy",
+      "artistUrl": "https://api.spotify.com/v1/artists/3TVXtAsR1Inumwj472S9r4",
+      "popularity": 71
+    },
+    {
+      "name": "The Ringer",
+      "artistUrl": "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+      "popularity": 87
+    },
+    {
+      "name": "Greatest",
+      "artistUrl": "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+      "popularity": 84
+    },
+    {
+      "name": "Lucky You (feat. Joyner Lucas)",
+      "artistUrl": "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+      "popularity": 92
+    },
+    {
+      "name": "Paul - Skit",
+      "artistUrl": "https://api.spotify.com/v1/artists/6bwVWdQfr6ttzrGLboVkjg",
+      "popularity": 78
+    },
+    {
+      "name": "Normal",
+      "artistUrl": "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+      "popularity": 81
+    },
+    {
+      "name": "Em Calls Paul - Skit",
+      "artistUrl": "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+      "popularity": 77
+    },
+    {
+      "name": "Stepping Stone",
+      "artistUrl": "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+      "popularity": 81
+    },
+    {
+      "name": "Not Alike (feat. Royce Da 5'9)",
+      "artistUrl": "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+      "popularity": 85
+    },
+    {
+      "name": "Kamikaze",
+      "artistUrl": "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+      "popularity": 83
+    },
+    {
+      "name": "Fall",
+      "artistUrl": "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+      "popularity": 86
+    },
+    {
+      "name": "Nice Guy (with Jessie Reyez)",
+      "artistUrl": "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+      "popularity": 78
+    },
+    {
+      "name": "Good Guy (feat. Jessie Reyez)",
+      "artistUrl": "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+      "popularity": 80
+    },
+    {
+      "name": "Venom - Music From The Motion Picture",
+      "artistUrl": "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+      "popularity": 88
+    },
+    {
+      "name": "Caterpillar (feat. Eminem & King Green)",
+      "artistUrl": "https://api.spotify.com/v1/artists/6DVipHzYsPlIoA0DW8Gmns",
+      "popularity": 66
+    },
+    {
+      "name": "Culture Shock",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 46
+    },
+    {
+      "name": "Light",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 47
+    },
+    {
+      "name": "Florence",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 44
+    },
+    {
+      "name": "Nightmare",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 49
+    },
+    {
+      "name": "Storm",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 44
+    },
+    {
+      "name": "Bittersweet",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 44
+    },
+    {
+      "name": "Symmetry",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 42
+    },
+    {
+      "name": "Ivory",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 43
+    },
+    {
+      "name": "Paradise",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 43
+    },
+    {
+      "name": "Amour",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 45
+    },
+    {
+      "name": "Crush",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 48
+    },
+    {
+      "name": "Euphoria",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 49
+    },
+    {
+      "name": "87",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 43
+    },
+    {
+      "name": "Sweet Tea (feat. Aaron Marshall)",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 42
+    },
+    {
+      "name": "Champagne (feat. Nick Johnston)",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 52
+    },
+    {
+      "name": "Aviator (feat. Jason Richardson)",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 44
+    },
+    {
+      "name": "The Jungle (feat. Jakub Zytecki)",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 40
+    },
+    {
+      "name": "Memory",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 40
+    },
+    {
+      "name": "Mood Swing",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 39
+    },
+    {
+      "name": "Hourglass (feat. Nick Sampson)",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 40
+    },
+    {
+      "name": "James Franco",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 45
+    },
+    {
+      "name": "Baditude (feat. Mario Camarena and Erick Hansel)",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 41
+    },
+    {
+      "name": "Finale",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 44
+    },
+    {
+      "name": "Loud",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 45
+    },
+    {
+      "name": "Icronic",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 45
+    },
+    {
+      "name": "Goose",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 51
+    },
+    {
+      "name": "40oz",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 51
+    },
+    {
+      "name": "Crosty",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 43
+    },
+    {
+      "name": "The Worst",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 45
+    },
+    {
+      "name": "Sleepy Tea",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 50
+    },
+    {
+      "name": "Waterslide",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 49
+    },
+    {
+      "name": "Berry Streets",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 46
+    },
+    {
+      "name": "No Signal",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 45
+    },
+    {
+      "name": "Checkpoint",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 41
+    },
+    {
+      "name": "Nayhoo",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 55
+    },
+    {
+      "name": "Here and There",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 43
+    },
+    {
+      "name": "The Space",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 40
+    },
+    {
+      "name": "Feel This Way",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 41
+    },
+    {
+      "name": "Continue?",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 40
+    },
+    {
+      "name": "Glitch",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 40
+    },
+    {
+      "name": "Wave Bounce",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 40
+    },
+    {
+      "name": "Drift",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 38
+    },
+    {
+      "name": "Story",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 47
+    },
+    {
+      "name": "Fall",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 41
+    },
+    {
+      "name": "Book",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 45
+    },
+    {
+      "name": "Can't Wait",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 52
+    },
+    {
+      "name": "Suda",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 44
+    },
+    {
+      "name": "Knot",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 42
+    },
+    {
+      "name": "Moon",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 39
+    },
+    {
+      "name": "Splash",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 43
+    },
+    {
+      "name": "Perfect Pillow",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 48
+    },
+    {
+      "name": "Echo",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 41
+    },
+    {
+      "name": "But",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 38
+    },
+    {
+      "name": "Potion",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 39
+    },
+    {
+      "name": "Puddle",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 42
+    },
+    {
+      "name": "Fluffy",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 42
+    },
+    {
+      "name": "Bubble Dream",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 49
+    },
+    {
+      "name": "Wut The... (Poop)",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 0
+    },
+    {
+      "name": "Dew",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 41
+    },
+    {
+      "name": "Frosting",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 3
+    },
+    {
+      "name": "Newborn Sun",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 40
+    },
+    {
+      "name": "Super Potion",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 35
+    },
+    {
+      "name": "Knot",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 31
+    },
+    {
+      "name": "Ecco",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 36
+    },
+    {
+      "name": "Sketch",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 37
+    },
+    {
+      "name": "Dust",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 35
+    },
+    {
+      "name": "Suda",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 29
+    },
+    {
+      "name": "Arithmophobia",
+      "artistUrl": "https://api.spotify.com/v1/artists/65C6Unk7nhg2aCnVuAPMo8",
+      "popularity": 45
+    },
+    {
+      "name": "Ectogenesis",
+      "artistUrl": "https://api.spotify.com/v1/artists/65C6Unk7nhg2aCnVuAPMo8",
+      "popularity": 46
+    },
+    {
+      "name": "Cognitive Contortions",
+      "artistUrl": "https://api.spotify.com/v1/artists/65C6Unk7nhg2aCnVuAPMo8",
+      "popularity": 39
+    },
+    {
+      "name": "Inner Assassins",
+      "artistUrl": "https://api.spotify.com/v1/artists/65C6Unk7nhg2aCnVuAPMo8",
+      "popularity": 42
+    },
+    {
+      "name": "Private Visions of the World",
+      "artistUrl": "https://api.spotify.com/v1/artists/65C6Unk7nhg2aCnVuAPMo8",
+      "popularity": 39
+    },
+    {
+      "name": "Backpfeifengesicht",
+      "artistUrl": "https://api.spotify.com/v1/artists/65C6Unk7nhg2aCnVuAPMo8",
+      "popularity": 40
+    },
+    {
+      "name": "Transcentience",
+      "artistUrl": "https://api.spotify.com/v1/artists/65C6Unk7nhg2aCnVuAPMo8",
+      "popularity": 37
+    },
+    {
+      "name": "The Glass Bridge",
+      "artistUrl": "https://api.spotify.com/v1/artists/65C6Unk7nhg2aCnVuAPMo8",
+      "popularity": 37
+    },
+    {
+      "name": "The Brain Dance",
+      "artistUrl": "https://api.spotify.com/v1/artists/65C6Unk7nhg2aCnVuAPMo8",
+      "popularity": 48
+    },
+    {
+      "name": "Apeirophobia",
+      "artistUrl": "https://api.spotify.com/v1/artists/65C6Unk7nhg2aCnVuAPMo8",
+      "popularity": 39
+    },
+    {
+      "name": "Electric Sunrise",
+      "artistUrl": "https://api.spotify.com/v1/artists/3Gs10XJ4S4OEFrMRqZJcic",
+      "popularity": 49
+    },
+    {
+      "name": "Handmade Cities",
+      "artistUrl": "https://api.spotify.com/v1/artists/3Gs10XJ4S4OEFrMRqZJcic",
+      "popularity": 47
+    },
+    {
+      "name": "Inhale",
+      "artistUrl": "https://api.spotify.com/v1/artists/3Gs10XJ4S4OEFrMRqZJcic",
+      "popularity": 43
+    },
+    {
+      "name": "Every Piece Matters",
+      "artistUrl": "https://api.spotify.com/v1/artists/3Gs10XJ4S4OEFrMRqZJcic",
+      "popularity": 47
+    },
+    {
+      "name": "Pastures",
+      "artistUrl": "https://api.spotify.com/v1/artists/3Gs10XJ4S4OEFrMRqZJcic",
+      "popularity": 40
+    },
+    {
+      "name": "Here We Are, Again",
+      "artistUrl": "https://api.spotify.com/v1/artists/3Gs10XJ4S4OEFrMRqZJcic",
+      "popularity": 38
+    },
+    {
+      "name": "Cascade",
+      "artistUrl": "https://api.spotify.com/v1/artists/3Gs10XJ4S4OEFrMRqZJcic",
+      "popularity": 43
+    },
+    {
+      "name": "The Parable (Rediscovered)",
+      "artistUrl": "https://api.spotify.com/v1/artists/7nCgNmfYJcsVy3vOOzExYS",
+      "popularity": 31
+    },
+    {
+      "name": "Language (Rediscovered)",
+      "artistUrl": "https://api.spotify.com/v1/artists/7nCgNmfYJcsVy3vOOzExYS",
+      "popularity": 39
+    },
+    {
+      "name": "Primordial Sound (Rediscovered)",
+      "artistUrl": "https://api.spotify.com/v1/artists/7nCgNmfYJcsVy3vOOzExYS",
+      "popularity": 28
+    },
+    {
+      "name": "The Source (Rediscovered)",
+      "artistUrl": "https://api.spotify.com/v1/artists/7nCgNmfYJcsVy3vOOzExYS",
+      "popularity": 30
+    },
+    {
+      "name": "Benzaiten - Instrumental",
+      "artistUrl": "https://api.spotify.com/v1/artists/48zUWAXpgEXfpttz23pCNQ",
+      "popularity": 26
+    },
+    {
+      "name": "Sarin - Instrumental",
+      "artistUrl": "https://api.spotify.com/v1/artists/48zUWAXpgEXfpttz23pCNQ",
+      "popularity": 24
+    },
+    {
+      "name": "Covert - Instrumental",
+      "artistUrl": "https://api.spotify.com/v1/artists/48zUWAXpgEXfpttz23pCNQ",
+      "popularity": 25
+    },
+    {
+      "name": "Hansha - Instrumental",
+      "artistUrl": "https://api.spotify.com/v1/artists/48zUWAXpgEXfpttz23pCNQ",
+      "popularity": 29
+    },
+    {
+      "name": "Deadweight - Instrumental",
+      "artistUrl": "https://api.spotify.com/v1/artists/48zUWAXpgEXfpttz23pCNQ",
+      "popularity": 24
+    },
+    {
+      "name": "Veridical - Instrumental",
+      "artistUrl": "https://api.spotify.com/v1/artists/48zUWAXpgEXfpttz23pCNQ",
+      "popularity": 24
+    },
+    {
+      "name": "Entrapment - Instrumental",
+      "artistUrl": "https://api.spotify.com/v1/artists/48zUWAXpgEXfpttz23pCNQ",
+      "popularity": 24
+    },
+    {
+      "name": "Hikari - Instrumental",
+      "artistUrl": "https://api.spotify.com/v1/artists/48zUWAXpgEXfpttz23pCNQ",
+      "popularity": 25
+    },
+    {
+      "name": "Birth-Marked - Instrumental",
+      "artistUrl": "https://api.spotify.com/v1/artists/48zUWAXpgEXfpttz23pCNQ",
+      "popularity": 23
+    },
+    {
+      "name": "Ukiyo - Instrumental",
+      "artistUrl": "https://api.spotify.com/v1/artists/48zUWAXpgEXfpttz23pCNQ",
+      "popularity": 24
+    },
+    {
+      "name": "Escapist - Instrumental",
+      "artistUrl": "https://api.spotify.com/v1/artists/48zUWAXpgEXfpttz23pCNQ",
+      "popularity": 24
+    },
+    {
+      "name": "Fourthirtytwo - Intro / Instrumental",
+      "artistUrl": "https://api.spotify.com/v1/artists/48zUWAXpgEXfpttz23pCNQ",
+      "popularity": 18
+    },
+    {
+      "name": "Arithmophobia",
+      "artistUrl": "https://api.spotify.com/v1/artists/65C6Unk7nhg2aCnVuAPMo8",
+      "popularity": 45
+    },
+    {
+      "name": "Ectogenesis",
+      "artistUrl": "https://api.spotify.com/v1/artists/65C6Unk7nhg2aCnVuAPMo8",
+      "popularity": 46
+    },
+    {
+      "name": "Cognitive Contortions",
+      "artistUrl": "https://api.spotify.com/v1/artists/65C6Unk7nhg2aCnVuAPMo8",
+      "popularity": 39
+    },
+    {
+      "name": "Inner Assassins",
+      "artistUrl": "https://api.spotify.com/v1/artists/65C6Unk7nhg2aCnVuAPMo8",
+      "popularity": 42
+    },
+    {
+      "name": "Private Visions of the World",
+      "artistUrl": "https://api.spotify.com/v1/artists/65C6Unk7nhg2aCnVuAPMo8",
+      "popularity": 39
+    },
+    {
+      "name": "Backpfeifengesicht",
+      "artistUrl": "https://api.spotify.com/v1/artists/65C6Unk7nhg2aCnVuAPMo8",
+      "popularity": 40
+    },
+    {
+      "name": "Transcentience",
+      "artistUrl": "https://api.spotify.com/v1/artists/65C6Unk7nhg2aCnVuAPMo8",
+      "popularity": 37
+    },
+    {
+      "name": "The Glass Bridge",
+      "artistUrl": "https://api.spotify.com/v1/artists/65C6Unk7nhg2aCnVuAPMo8",
+      "popularity": 37
+    },
+    {
+      "name": "The Brain Dance",
+      "artistUrl": "https://api.spotify.com/v1/artists/65C6Unk7nhg2aCnVuAPMo8",
+      "popularity": 48
+    },
+    {
+      "name": "Apeirophobia",
+      "artistUrl": "https://api.spotify.com/v1/artists/65C6Unk7nhg2aCnVuAPMo8",
+      "popularity": 39
+    },
+    {
+      "name": "Do You Really Want It",
+      "artistUrl": "https://api.spotify.com/v1/artists/39VNwvlQTqE9SvgPjjnMpc",
+      "popularity": 58
+    },
+    {
+      "name": "Let 'em Burn",
+      "artistUrl": "https://api.spotify.com/v1/artists/39VNwvlQTqE9SvgPjjnMpc",
+      "popularity": 49
+    },
+    {
+      "name": "Ripping Me Apart",
+      "artistUrl": "https://api.spotify.com/v1/artists/39VNwvlQTqE9SvgPjjnMpc",
+      "popularity": 47
+    },
+    {
+      "name": "Don't Stop",
+      "artistUrl": "https://api.spotify.com/v1/artists/39VNwvlQTqE9SvgPjjnMpc",
+      "popularity": 51
+    },
+    {
+      "name": "Funny Little Creatures",
+      "artistUrl": "https://api.spotify.com/v1/artists/39VNwvlQTqE9SvgPjjnMpc",
+      "popularity": 46
+    },
+    {
+      "name": "The Great Divorce",
+      "artistUrl": "https://api.spotify.com/v1/artists/39VNwvlQTqE9SvgPjjnMpc",
+      "popularity": 41
+    },
+    {
+      "name": "Still In Love",
+      "artistUrl": "https://api.spotify.com/v1/artists/39VNwvlQTqE9SvgPjjnMpc",
+      "popularity": 44
+    },
+    {
+      "name": "Go To War",
+      "artistUrl": "https://api.spotify.com/v1/artists/39VNwvlQTqE9SvgPjjnMpc",
+      "popularity": 57
+    },
+    {
+      "name": "Just Say When",
+      "artistUrl": "https://api.spotify.com/v1/artists/39VNwvlQTqE9SvgPjjnMpc",
+      "popularity": 46
+    },
+    {
+      "name": "Who We Are",
+      "artistUrl": "https://api.spotify.com/v1/artists/39VNwvlQTqE9SvgPjjnMpc",
+      "popularity": 47
+    },
+    {
+      "name": "Tunnels",
+      "artistUrl": "https://api.spotify.com/v1/artists/39VNwvlQTqE9SvgPjjnMpc",
+      "popularity": 41
+    },
+    {
+      "name": "End / Begin",
+      "artistUrl": "https://api.spotify.com/v1/artists/39VNwvlQTqE9SvgPjjnMpc",
+      "popularity": 37
+    },
+    {
+      "name": "Fade In / Fade Out",
+      "artistUrl": "https://api.spotify.com/v1/artists/39VNwvlQTqE9SvgPjjnMpc",
+      "popularity": 58
+    },
+    {
+      "name": "Benzaiten",
+      "artistUrl": "https://api.spotify.com/v1/artists/48zUWAXpgEXfpttz23pCNQ",
+      "popularity": 39
+    },
+    {
+      "name": "Sarin",
+      "artistUrl": "https://api.spotify.com/v1/artists/48zUWAXpgEXfpttz23pCNQ",
+      "popularity": 37
+    },
+    {
+      "name": "Covert",
+      "artistUrl": "https://api.spotify.com/v1/artists/48zUWAXpgEXfpttz23pCNQ",
+      "popularity": 44
+    },
+    {
+      "name": "Hansha",
+      "artistUrl": "https://api.spotify.com/v1/artists/48zUWAXpgEXfpttz23pCNQ",
+      "popularity": 52
+    },
+    {
+      "name": "Deadweight",
+      "artistUrl": "https://api.spotify.com/v1/artists/48zUWAXpgEXfpttz23pCNQ",
+      "popularity": 38
+    },
+    {
+      "name": "Veridical",
+      "artistUrl": "https://api.spotify.com/v1/artists/48zUWAXpgEXfpttz23pCNQ",
+      "popularity": 36
+    },
+    {
+      "name": "Entrapment",
+      "artistUrl": "https://api.spotify.com/v1/artists/48zUWAXpgEXfpttz23pCNQ",
+      "popularity": 36
+    },
+    {
+      "name": "Hikari",
+      "artistUrl": "https://api.spotify.com/v1/artists/48zUWAXpgEXfpttz23pCNQ",
+      "popularity": 39
+    },
+    {
+      "name": "Birth-Marked",
+      "artistUrl": "https://api.spotify.com/v1/artists/48zUWAXpgEXfpttz23pCNQ",
+      "popularity": 35
+    },
+    {
+      "name": "Ukiyo",
+      "artistUrl": "https://api.spotify.com/v1/artists/48zUWAXpgEXfpttz23pCNQ",
+      "popularity": 34
+    },
+    {
+      "name": "Escapist",
+      "artistUrl": "https://api.spotify.com/v1/artists/48zUWAXpgEXfpttz23pCNQ",
+      "popularity": 42
+    },
+    {
+      "name": "Windowpane",
+      "artistUrl": "https://api.spotify.com/v1/artists/0ybFZ2Ab08V8hueghSXm6E",
+      "popularity": 53
+    },
+    {
+      "name": "In My Time of Need",
+      "artistUrl": "https://api.spotify.com/v1/artists/0ybFZ2Ab08V8hueghSXm6E",
+      "popularity": 49
+    },
+    {
+      "name": "Death Whispered a Lullaby",
+      "artistUrl": "https://api.spotify.com/v1/artists/0ybFZ2Ab08V8hueghSXm6E",
+      "popularity": 45
+    },
+    {
+      "name": "Closure",
+      "artistUrl": "https://api.spotify.com/v1/artists/0ybFZ2Ab08V8hueghSXm6E",
+      "popularity": 41
+    },
+    {
+      "name": "Hope Leaves",
+      "artistUrl": "https://api.spotify.com/v1/artists/0ybFZ2Ab08V8hueghSXm6E",
+      "popularity": 44
+    },
+    {
+      "name": "To Rid the Disease",
+      "artistUrl": "https://api.spotify.com/v1/artists/0ybFZ2Ab08V8hueghSXm6E",
+      "popularity": 42
+    },
+    {
+      "name": "Ending Credits",
+      "artistUrl": "https://api.spotify.com/v1/artists/0ybFZ2Ab08V8hueghSXm6E",
+      "popularity": 40
+    },
+    {
+      "name": "Weakness",
+      "artistUrl": "https://api.spotify.com/v1/artists/0ybFZ2Ab08V8hueghSXm6E",
+      "popularity": 37
+    },
+    {
+      "name": "Sleepy Tea",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 50
+    },
+    {
+      "name": "Waterslide",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 49
+    },
+    {
+      "name": "Berry Streets",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 46
+    },
+    {
+      "name": "No Signal",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 45
+    },
+    {
+      "name": "Checkpoint",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 41
+    },
+    {
+      "name": "Nayhoo",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 55
+    },
+    {
+      "name": "Here and There",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 43
+    },
+    {
+      "name": "The Space",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 40
+    },
+    {
+      "name": "Feel This Way",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 41
+    },
+    {
+      "name": "Continue?",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 40
+    },
+    {
+      "name": "Glitch",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 40
+    },
+    {
+      "name": "Wave Bounce",
+      "artistUrl": "https://api.spotify.com/v1/artists/2JFljHPanIjYy2QqfNYvC0",
+      "popularity": 40
+    },
+    {
+      "name": "Monochrome (Passive)",
+      "artistUrl": "https://api.spotify.com/v1/artists/7nCgNmfYJcsVy3vOOzExYS",
+      "popularity": 39
+    },
+    {
+      "name": "Godspeed",
+      "artistUrl": "https://api.spotify.com/v1/artists/7nCgNmfYJcsVy3vOOzExYS",
+      "popularity": 42
+    },
+    {
+      "name": "Reimagined",
+      "artistUrl": "https://api.spotify.com/v1/artists/7nCgNmfYJcsVy3vOOzExYS",
+      "popularity": 46
+    },
+    {
+      "name": "Clairvoyant",
+      "artistUrl": "https://api.spotify.com/v1/artists/7nCgNmfYJcsVy3vOOzExYS",
+      "popularity": 44
+    },
+    {
+      "name": "The Center",
+      "artistUrl": "https://api.spotify.com/v1/artists/7nCgNmfYJcsVy3vOOzExYS",
+      "popularity": 40
+    },
+    {
+      "name": "Absolve",
+      "artistUrl": "https://api.spotify.com/v1/artists/7nCgNmfYJcsVy3vOOzExYS",
+      "popularity": 41
+    },
+    {
+      "name": "Relapse",
+      "artistUrl": "https://api.spotify.com/v1/artists/7nCgNmfYJcsVy3vOOzExYS",
+      "popularity": 37
+    },
+    {
+      "name": "Return To Earth",
+      "artistUrl": "https://api.spotify.com/v1/artists/7nCgNmfYJcsVy3vOOzExYS",
+      "popularity": 43
+    },
+    {
+      "name": "Monochrome (Pensive)",
+      "artistUrl": "https://api.spotify.com/v1/artists/7nCgNmfYJcsVy3vOOzExYS",
+      "popularity": 39
+    },
+    {
+      "name": "O N Y X",
+      "artistUrl": "https://api.spotify.com/v1/artists/71KlAA3CCNxxRI8WCyy1G7",
+      "popularity": 34
+    },
+    {
+      "name": "Culture Shock",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 46
+    },
+    {
+      "name": "Light",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 47
+    },
+    {
+      "name": "Florence",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 44
+    },
+    {
+      "name": "Nightmare",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 49
+    },
+    {
+      "name": "Storm",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 44
+    },
+    {
+      "name": "Bittersweet",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 44
+    },
+    {
+      "name": "Symmetry",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 42
+    },
+    {
+      "name": "Ivory",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 43
+    },
+    {
+      "name": "Paradise",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 43
+    },
+    {
+      "name": "Amour",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 45
+    },
+    {
+      "name": "Crush",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 48
+    },
+    {
+      "name": "Euphoria",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 49
+    },
+    {
+      "name": "87",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 43
+    },
+    {
+      "name": "Sweet Tea (feat. Aaron Marshall)",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 42
+    },
+    {
+      "name": "Champagne (feat. Nick Johnston)",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 52
+    },
+    {
+      "name": "Aviator (feat. Jason Richardson)",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 44
+    },
+    {
+      "name": "The Jungle (feat. Jakub Zytecki)",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 40
+    },
+    {
+      "name": "Memory",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 40
+    },
+    {
+      "name": "Mood Swing",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 39
+    },
+    {
+      "name": "Hourglass (feat. Nick Sampson)",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 40
+    },
+    {
+      "name": "James Franco",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 45
+    },
+    {
+      "name": "Baditude (feat. Mario Camarena and Erick Hansel)",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 41
+    },
+    {
+      "name": "Finale",
+      "artistUrl": "https://api.spotify.com/v1/artists/4vGrte8FDu062Ntj0RsPiZ",
+      "popularity": 44
+    },
+    {
+      "name": "Pursue",
+      "artistUrl": "https://api.spotify.com/v1/artists/71KlAA3CCNxxRI8WCyy1G7",
+      "popularity": 30
+    },
+    {
+      "name": "Chop Suey!",
+      "artistUrl": "https://api.spotify.com/v1/artists/5eAWCfyUhZtHHtBdNk56l1",
+      "popularity": 79
+    },
+    {
+      "name": "Toxicity",
+      "artistUrl": "https://api.spotify.com/v1/artists/5eAWCfyUhZtHHtBdNk56l1",
+      "popularity": 77
+    },
+    {
+      "name": "Lonely Day",
+      "artistUrl": "https://api.spotify.com/v1/artists/5eAWCfyUhZtHHtBdNk56l1",
+      "popularity": 72
+    },
+    {
+      "name": "Hypnotize",
+      "artistUrl": "https://api.spotify.com/v1/artists/5eAWCfyUhZtHHtBdNk56l1",
+      "popularity": 68
+    },
+    {
+      "name": "Aerials",
+      "artistUrl": "https://api.spotify.com/v1/artists/5eAWCfyUhZtHHtBdNk56l1",
+      "popularity": 72
+    },
+    {
+      "name": "Lost In Hollywood",
+      "artistUrl": "https://api.spotify.com/v1/artists/5eAWCfyUhZtHHtBdNk56l1",
+      "popularity": 65
+    },
+    {
+      "name": "Soldier Side",
+      "artistUrl": "https://api.spotify.com/v1/artists/5eAWCfyUhZtHHtBdNk56l1",
+      "popularity": 62
+    },
+    {
+      "name": "ATWA",
+      "artistUrl": "https://api.spotify.com/v1/artists/5eAWCfyUhZtHHtBdNk56l1",
+      "popularity": 64
+    },
+    {
+      "name": "Wait And Bleed",
+      "artistUrl": "https://api.spotify.com/v1/artists/05fG473iIaoy82BF1aGhL8",
+      "popularity": 69
+    },
+    {
+      "name": "Dead Memories",
+      "artistUrl": "https://api.spotify.com/v1/artists/05fG473iIaoy82BF1aGhL8",
+      "popularity": 66
+    },
+    {
+      "name": "Duality",
+      "artistUrl": "https://api.spotify.com/v1/artists/05fG473iIaoy82BF1aGhL8",
+      "popularity": 51
+    },
+    {
+      "name": "Before I Forget",
+      "artistUrl": "https://api.spotify.com/v1/artists/05fG473iIaoy82BF1aGhL8",
+      "popularity": 45
+    }
+  ]
+}

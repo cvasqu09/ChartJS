@@ -6,6 +6,7 @@ import { Playlist } from '../playlists/playlist.model';
 import { Observable, BehaviorSubject, from } from 'rxjs';
 
 import { map, concatAll, mergeAll } from 'rxjs/operators';
+import Song from '../songs/song.model';
 
 @Injectable({
   providedIn: 'root'
@@ -31,8 +32,19 @@ export class PlaylistService {
 
   getPlaylistTracks(tracksUrl: string): Observable<any> {
     return this.http.get(tracksUrl, { headers: this.headers }).pipe(
-      map((response: any) => response.items),
+      map((response: any) => {
+        return response.items;
+      }),
       concatAll()
+    );
+  }
+
+  getStaticSongs(): Observable<any> {
+    return this.http.get('http://localhost:3000/songs').pipe(
+      concatAll(),
+      map((song: any) => {
+        return new Song(song.name, song.artistUrl, song.popularity);
+      })
     );
   }
 
