@@ -9,7 +9,7 @@ import {
   OnChanges
 } from '@angular/core';
 import { Playlist } from '../playlist.model';
-import { PlaylistService } from '../../services/playlist.service';
+import { PlaylistService } from '../../services/abstract-playlist.service';
 import { Artist } from '../../artist/artist.model';
 import Song from '../../songs/song.model';
 import { ArtistService } from '../../services/artist.service';
@@ -54,13 +54,13 @@ export class PlaylistComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.playlistService.playlistObs().subscribe((playlist: Playlist) => {
+    this.playlistService.getPlaylistObs().subscribe((playlist: Playlist) => {
       this.resetChart();
       this.selectedPlaylist = playlist;
       this.playlistService
         .getPlaylistTracks(this.selectedPlaylist.getTracksUrl())
         .pipe(
-          map(returnedTrack => {
+          map((returnedTrack: any) => {
             const artist = returnedTrack.track.artists[0];
             this.songs.push(new Song(returnedTrack.track.name, artist.href, returnedTrack.track.popularity));
             return returnedTrack;

@@ -1305,5 +1305,277 @@
       "artistUrl": "https://api.spotify.com/v1/artists/05fG473iIaoy82BF1aGhL8",
       "popularity": 45
     }
-  ]
+  ],
+  "playlists": {
+    "/v1/me/playlists": {
+      "href": "https://api.spotify.com/v1/users/cvasqu09/playlists?offset=0&limit=20",
+      "items": [
+        {
+          "collaborative": false,
+          "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/1oTVo3neTskMibNvRRVfAC"
+          },
+          "href": "https://api.spotify.com/v1/playlists/1oTVo3neTskMibNvRRVfAC",
+          "id": "1oTVo3neTskMibNvRRVfAC",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/50b8bd06900cc2542c78a6446657f77d7aaba96e",
+              "width": 640
+            }
+          ],
+          "name": "ChillStep",
+          "owner": {
+            "display_name": "cvasqu09",
+            "external_urls": {
+              "spotify": "https://open.spotify.com/user/cvasqu09"
+            },
+            "href": "https://api.spotify.com/v1/users/cvasqu09",
+            "id": "cvasqu09",
+            "type": "user",
+            "uri": "spotify:user:cvasqu09"
+          },
+          "primary_color": null,
+          "public": true,
+          "snapshot_id": "NywzZWM5NjNkZDQ4MmQyMjJlMThjZWM2ZDY5ZWQ5OGYwZGFlOTg4ZDE0",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/1oTVo3neTskMibNvRRVfAC/tracks",
+            "total": 5
+          },
+          "type": "playlist",
+          "uri": "spotify:user:cvasqu09:playlist:1oTVo3neTskMibNvRRVfAC"
+        },
+        {
+          "collaborative": false,
+          "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/4kllsS46EFiESLvYd5zskE"
+          },
+          "href": "https://api.spotify.com/v1/playlists/4kllsS46EFiESLvYd5zskE",
+          "id": "4kllsS46EFiESLvYd5zskE",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://mosaic.scdn.co/640/35bc49f45c244fa7a8611c9a8975702c298e84b5897114cd8604db3cd6e06bcafbac0b447466f45f94c8fb6478a6522ebf69b7b77f4f382b503805cea99aa8902ed3b4efa4b6753800505fb89e7ff22e",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://mosaic.scdn.co/300/35bc49f45c244fa7a8611c9a8975702c298e84b5897114cd8604db3cd6e06bcafbac0b447466f45f94c8fb6478a6522ebf69b7b77f4f382b503805cea99aa8902ed3b4efa4b6753800505fb89e7ff22e",
+              "width": 300
+            },
+            {
+              "height": 60,
+              "url": "https://mosaic.scdn.co/60/35bc49f45c244fa7a8611c9a8975702c298e84b5897114cd8604db3cd6e06bcafbac0b447466f45f94c8fb6478a6522ebf69b7b77f4f382b503805cea99aa8902ed3b4efa4b6753800505fb89e7ff22e",
+              "width": 60
+            }
+          ],
+          "name": "R&B",
+          "owner": {
+            "display_name": "cvasqu09",
+            "external_urls": {
+              "spotify": "https://open.spotify.com/user/cvasqu09"
+            },
+            "href": "https://api.spotify.com/v1/users/cvasqu09",
+            "id": "cvasqu09",
+            "type": "user",
+            "uri": "spotify:user:cvasqu09"
+          },
+          "primary_color": null,
+          "public": true,
+          "snapshot_id": "MTksZDdiZmY4ZTVlOTk2ZjNlZjU3YTg4ZGRhMGVlZjA4OGI5NmVlNDE0Mg==",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/4kllsS46EFiESLvYd5zskE/tracks",
+            "total": 17
+          },
+          "type": "playlist",
+          "uri": "spotify:user:cvasqu09:playlist:4kllsS46EFiESLvYd5zskE"
+        },
+        {
+          "collaborative": false,
+          "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/63M59SLAWaos7dSBBflkWQ"
+          },
+          "href": "https://api.spotify.com/v1/playlists/63M59SLAWaos7dSBBflkWQ",
+          "id": "63M59SLAWaos7dSBBflkWQ",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://mosaic.scdn.co/640/0604aa3ceaefd16afc5a41b8d1665aebceb1cf261c358ea3556f0524ddfb4568c8b29b7a77e1ea443c294000d8739af300d9a842934d6f7e090471c79d31ca65b1360fd319d5f52cd7f15b0992b08c23",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://mosaic.scdn.co/300/0604aa3ceaefd16afc5a41b8d1665aebceb1cf261c358ea3556f0524ddfb4568c8b29b7a77e1ea443c294000d8739af300d9a842934d6f7e090471c79d31ca65b1360fd319d5f52cd7f15b0992b08c23",
+              "width": 300
+            },
+            {
+              "height": 60,
+              "url": "https://mosaic.scdn.co/60/0604aa3ceaefd16afc5a41b8d1665aebceb1cf261c358ea3556f0524ddfb4568c8b29b7a77e1ea443c294000d8739af300d9a842934d6f7e090471c79d31ca65b1360fd319d5f52cd7f15b0992b08c23",
+              "width": 60
+            }
+          ],
+          "name": "Bumpin",
+          "owner": {
+            "display_name": "cvasqu09",
+            "external_urls": {
+              "spotify": "https://open.spotify.com/user/cvasqu09"
+            },
+            "href": "https://api.spotify.com/v1/users/cvasqu09",
+            "id": "cvasqu09",
+            "type": "user",
+            "uri": "spotify:user:cvasqu09"
+          },
+          "primary_color": null,
+          "public": true,
+          "snapshot_id": "OCxlMTdiMTA5MDRkYWU3MDk1YTdhODA5YzE3YTViNjcyMDQ0MDU5NGY4",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/63M59SLAWaos7dSBBflkWQ/tracks",
+            "total": 6
+          },
+          "type": "playlist",
+          "uri": "spotify:user:cvasqu09:playlist:63M59SLAWaos7dSBBflkWQ"
+        },
+        {
+          "collaborative": false,
+          "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/67Mmif6fZ6sVmjOB6ZTcCb"
+          },
+          "href": "https://api.spotify.com/v1/playlists/67Mmif6fZ6sVmjOB6ZTcCb",
+          "id": "67Mmif6fZ6sVmjOB6ZTcCb",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://mosaic.scdn.co/640/051a195eba48e6785f03585463b68d4920f687164003c4f6208521bc524d151d13fdc9c468fa38d0ae6e4181f13163fa09d41e3216e3b143ab6b28d3feb87318d3fef1ee46fb9a6c322a4b081bf7ff3f",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://mosaic.scdn.co/300/051a195eba48e6785f03585463b68d4920f687164003c4f6208521bc524d151d13fdc9c468fa38d0ae6e4181f13163fa09d41e3216e3b143ab6b28d3feb87318d3fef1ee46fb9a6c322a4b081bf7ff3f",
+              "width": 300
+            },
+            {
+              "height": 60,
+              "url": "https://mosaic.scdn.co/60/051a195eba48e6785f03585463b68d4920f687164003c4f6208521bc524d151d13fdc9c468fa38d0ae6e4181f13163fa09d41e3216e3b143ab6b28d3feb87318d3fef1ee46fb9a6c322a4b081bf7ff3f",
+              "width": 60
+            }
+          ],
+          "name": "Mix",
+          "owner": {
+            "display_name": "cvasqu09",
+            "external_urls": {
+              "spotify": "https://open.spotify.com/user/cvasqu09"
+            },
+            "href": "https://api.spotify.com/v1/users/cvasqu09",
+            "id": "cvasqu09",
+            "type": "user",
+            "uri": "spotify:user:cvasqu09"
+          },
+          "primary_color": null,
+          "public": true,
+          "snapshot_id": "OTUsYWVhN2IyZDQxYzNhY2VkODBjODEwYWZhZTNkNWUxOGEyNTJkNDVjMA==",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/67Mmif6fZ6sVmjOB6ZTcCb/tracks",
+            "total": 283
+          },
+          "type": "playlist",
+          "uri": "spotify:user:cvasqu09:playlist:67Mmif6fZ6sVmjOB6ZTcCb"
+        },
+        {
+          "collaborative": false,
+          "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/2Vo6vKQ5nkCqofzbgJJrSZ"
+          },
+          "href": "https://api.spotify.com/v1/playlists/2Vo6vKQ5nkCqofzbgJJrSZ",
+          "id": "2Vo6vKQ5nkCqofzbgJJrSZ",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://mosaic.scdn.co/640/2d92019fa0260ba3ae2fdc06d319e312f302df3b4b097f033cc20d982b91aac70090d769c924e4ab64859fa60c44086c6161488236a0d6c3b22adee2979b70477d3b1fc703953d4d058b915ce240305a",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://mosaic.scdn.co/300/2d92019fa0260ba3ae2fdc06d319e312f302df3b4b097f033cc20d982b91aac70090d769c924e4ab64859fa60c44086c6161488236a0d6c3b22adee2979b70477d3b1fc703953d4d058b915ce240305a",
+              "width": 300
+            },
+            {
+              "height": 60,
+              "url": "https://mosaic.scdn.co/60/2d92019fa0260ba3ae2fdc06d319e312f302df3b4b097f033cc20d982b91aac70090d769c924e4ab64859fa60c44086c6161488236a0d6c3b22adee2979b70477d3b1fc703953d4d058b915ce240305a",
+              "width": 60
+            }
+          ],
+          "name": "Work",
+          "owner": {
+            "display_name": "cvasqu09",
+            "external_urls": {
+              "spotify": "https://open.spotify.com/user/cvasqu09"
+            },
+            "href": "https://api.spotify.com/v1/users/cvasqu09",
+            "id": "cvasqu09",
+            "type": "user",
+            "uri": "spotify:user:cvasqu09"
+          },
+          "primary_color": null,
+          "public": true,
+          "snapshot_id": "NDMsNTAwMDBiMWZmODllMjgwYTdjYzlkN2JkMjM2NjRhZGM5ZDczMTkxYg==",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/2Vo6vKQ5nkCqofzbgJJrSZ/tracks",
+            "total": 194
+          },
+          "type": "playlist",
+          "uri": "spotify:user:cvasqu09:playlist:2Vo6vKQ5nkCqofzbgJJrSZ"
+        },
+        {
+          "collaborative": false,
+          "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/3CbdgTRyxyqTs9rookS4xd"
+          },
+          "href": "https://api.spotify.com/v1/playlists/3CbdgTRyxyqTs9rookS4xd",
+          "id": "3CbdgTRyxyqTs9rookS4xd",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://mosaic.scdn.co/640/4988546859334f9a5a3fa4acedc5aea275929026bf60b560bc5dd85ed7412508bdb75f6f27731c73d329671363eb7826b5871eef978841c7db97c757ea3fb48018ec6d5b1ca43b6d37edfefc4862008f",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://mosaic.scdn.co/300/4988546859334f9a5a3fa4acedc5aea275929026bf60b560bc5dd85ed7412508bdb75f6f27731c73d329671363eb7826b5871eef978841c7db97c757ea3fb48018ec6d5b1ca43b6d37edfefc4862008f",
+              "width": 300
+            },
+            {
+              "height": 60,
+              "url": "https://mosaic.scdn.co/60/4988546859334f9a5a3fa4acedc5aea275929026bf60b560bc5dd85ed7412508bdb75f6f27731c73d329671363eb7826b5871eef978841c7db97c757ea3fb48018ec6d5b1ca43b6d37edfefc4862008f",
+              "width": 60
+            }
+          ],
+          "name": "Hoodrat",
+          "owner": {
+            "display_name": "cvasqu09",
+            "external_urls": {
+              "spotify": "https://open.spotify.com/user/cvasqu09"
+            },
+            "href": "https://api.spotify.com/v1/users/cvasqu09",
+            "id": "cvasqu09",
+            "type": "user",
+            "uri": "spotify:user:cvasqu09"
+          },
+          "primary_color": null,
+          "public": true,
+          "snapshot_id": "MjUsZmYzNzA0ODU5YWQ1NWIwNWQ0MDM2NGNjMGI2YTcwNzUyZWFhMTY3Mg==",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/3CbdgTRyxyqTs9rookS4xd/tracks",
+            "total": 33
+          },
+          "type": "playlist",
+          "uri": "spotify:user:cvasqu09:playlist:3CbdgTRyxyqTs9rookS4xd"
+        }
+      ],
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total": 6
+    }
+  }
 }

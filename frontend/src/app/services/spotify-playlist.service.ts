@@ -7,17 +7,20 @@ import { Observable, BehaviorSubject, from } from 'rxjs';
 
 import { map, concatAll, mergeAll } from 'rxjs/operators';
 import Song from '../songs/song.model';
+import { PlaylistService } from './abstract-playlist.service';
 
 @Injectable({
   providedIn: 'root'
 })
-export class PlaylistService {
+export class SpotifyPlaylistService extends PlaylistService {
   private playlistSubject: BehaviorSubject<Playlist> = new BehaviorSubject<Playlist>(null);
   private playlist$: Observable<Playlist> = this.playlistSubject.asObservable();
 
   headers = new HttpHeaders().append('Authorization', 'Bearer ' + this.tokenService.getToken());
 
-  constructor(private http: HttpClient, private tokenService: TokenService) { }
+  constructor(private http: HttpClient, private tokenService: TokenService) {
+    super();
+   }
 
   getPlaylists() {
     return this.http.get(environment.SPOTIFY_BASE_WEB_API + '/v1/me/playlists', { headers: this.headers })
@@ -52,7 +55,7 @@ export class PlaylistService {
     this.playlistSubject.next(newPlaylist);
   }
 
-  playlistObs(): Observable<Playlist> {
+  getPlaylistObs(): Observable<Playlist> {
     return this.playlist$;
   }
 }

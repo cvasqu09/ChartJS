@@ -1,8 +1,8 @@
 import { Component, OnInit, AfterViewInit, AfterContentInit } from '@angular/core';
-import { PlaylistService } from '../services/playlist.service';
 import { Playlist } from '../playlists/playlist.model';
 import { mergeMap, map, concatAll } from 'rxjs/operators';
 import Song from './song.model';
+import { PlaylistService } from '../services/abstract-playlist.service';
 
 @Component({
   selector: 'app-songs',
@@ -10,7 +10,8 @@ import Song from './song.model';
   styleUrls: ['./songs.component.scss']
 })
 export class SongsComponent implements OnInit {
-
+  isChartDataAvailable = false;
+  scatterData = [];
   songs: Song[] = [];
 
   constructor(private playlistService: PlaylistService) { }
@@ -32,8 +33,9 @@ export class SongsComponent implements OnInit {
     //   console.log(JSON.stringify(song));
     // });
 
-    this.playlistService.getStaticSongs().subscribe(song => {
+    this.playlistService.getPlaylistTracks('hello').subscribe(song => {
       this.songs.push(song);
+
     });
   }
 

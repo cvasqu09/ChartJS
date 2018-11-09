@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  SPOTIFY_BASE_WEB_API: 'https://api.spotify.com'
+  SPOTIFY_BASE_WEB_API: 'https://api.spotify.com',
+  MOCK_WEB_API: 'http://localhost:3000'
 };
 
 /*

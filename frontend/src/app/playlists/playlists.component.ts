@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PlaylistService } from '../services/playlist.service';
+import { PlaylistService } from '../services/abstract-playlist.service';
 import { Playlist } from './playlist.model';
 import { map } from 'rxjs/operators';
 
