@@ -5,7 +5,6 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
 // tslint:disable-next-line:max-line-length
-import { MatButtonModule, MatInputModule, MatFormFieldModule, MatCardModule, MatToolbar, MatToolbarModule, MatListModule, MatDividerModule, MatIconModule, MatTableModule, MatPaginatorModule } from '@angular/material';
 import { LoginComponent } from './login/login.component';
 import { RouterModule, Routes } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -17,8 +16,9 @@ import { CookieService } from 'ngx-cookie-service';
 import { PlaylistComponent } from './playlists/playlist/playlist.component';
 import { ArtistComponent } from './artist/artist.component';
 import { playlistServiceProvider } from './services/playlist.provider';
+import { AngularMaterialModule } from './angular-material.module';
 
-const routes: Routes = [
+export const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'songs', component: SongsComponent },
   { path: 'playlists', component: PlaylistsComponent },
@@ -38,20 +38,11 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
+    AngularMaterialModule,
     ChartsModule,
-    MatButtonModule,
-    MatInputModule,
-    MatFormFieldModule,
     BrowserAnimationsModule,
-    MatDividerModule,
-    MatCardModule,
-    MatListModule,
     HttpClientModule,
-    MatToolbarModule,
-    MatIconModule,
     FlexLayoutModule,
-    MatTableModule,
-    MatPaginatorModule,
     RouterModule.forRoot(routes),
   ],
   providers: [LoginService, CookieService, playlistServiceProvider],
