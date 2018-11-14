@@ -1,10 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { TokenService } from './token.service';
 import { PlaylistService } from './abstract-playlist.service';
-import { Token } from '@angular/compiler';
 import { SpotifyPlaylistService } from './spotify-playlist.service';
 import { MockPlaylistService } from './mock-playlist.service';
-import { isDevMode } from '@angular/core';
 import { EnvironmentService } from './environment.service';
 
 const playlistServiceFactory = (http: HttpClient, tokenService: TokenService, environmentService: EnvironmentService) => {
