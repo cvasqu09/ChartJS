@@ -1,27 +1,49 @@
-import { TestBed, async } from '@angular/core/testing';
+import { TestBed, async, ComponentFixture } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { AngularMaterialModule } from './angular-material.module';
+import { AppModule, routes } from './app.module';
+import { RouterModule } from '@angular/router';
+import { LoginComponent } from './login/login.component';
+import { SongsComponent } from './songs/songs.component';
+import { PlaylistsComponent } from './playlists/playlists.component';
+import { ChartsModule } from 'ng2-charts';
+import { PlaylistComponent } from './playlists/playlist/playlist.component';
+import { APP_BASE_HREF } from '@angular/common';
+import { DebugElement } from '@angular/core';
+import { By } from '@angular/platform-browser';
 describe('AppComponent', () => {
+  let fixture: ComponentFixture<AppComponent>;
+  let component: AppComponent;
+
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent,
+        LoginComponent,
+        SongsComponent,
+        PlaylistsComponent,
+        PlaylistComponent
       ],
+      imports: [
+        AngularMaterialModule,
+        ChartsModule,
+        RouterModule.forRoot(routes)
+      ],
+      providers: [{provide: APP_BASE_HREF, useValue: '/'}]
     }).compileComponents();
   }));
-  it('should create the app', async(() => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.debugElement.componentInstance;
-    expect(app).toBeTruthy();
-  }));
-  it(`should have as title 'app'`, async(() => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('app');
-  }));
-  it('should render title in a h1 tag', async(() => {
-    const fixture = TestBed.createComponent(AppComponent);
+
+  beforeEach(() => {
+    fixture = TestBed.createComponent(AppComponent);
+    component = fixture.componentInstance;
     fixture.detectChanges();
-    const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to frontend!');
+  });
+
+
+  it('should create the app', async(() => {
+    const appElement = fixture.debugElement;
+    const titleEl = appElement.query(By.css('.title'));
+    const title = titleEl.nativeElement;
+    expect(title.textContent).toBe('Spotify Charts');
   }));
 });

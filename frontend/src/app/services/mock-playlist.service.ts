@@ -15,7 +15,7 @@ export class MockPlaylistService extends PlaylistService {
   }
 
   getPlaylists() {
-    return this.http.get(environment.MOCK_WEB_API).pipe(
+    return this.http.get(environment.SPOTIFY_BASE_WEB_API).pipe(
       map((response: any) => {
         return response.items;
       }),
