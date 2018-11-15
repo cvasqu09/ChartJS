@@ -13,6 +13,7 @@ describe('LoginComponent', () => {
   let component: LoginComponent;
   let fixture: ComponentFixture<LoginComponent>;
   let loginButtonEl: DebugElement;
+  let clearButtonEl: DebugElement;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
@@ -31,7 +32,8 @@ describe('LoginComponent', () => {
     fixture = TestBed.createComponent(LoginComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
-    this.loginButtonEl = fixture.debugElement.query(By.css('.login-button'));
+    loginButtonEl = fixture.debugElement.query(By.css('.login-button'));
+    clearButtonEl = fixture.debugElement.query(By.css('.token-button'));
   });
 
   it('should create', () => {
@@ -39,14 +41,25 @@ describe('LoginComponent', () => {
   });
 
   it('should contain a login button with login text', () => {
-    expect(this.loginButtonEl.nativeElement.textContent).toBe('Login');
+    expect(loginButtonEl.nativeElement.textContent).toBe('Login');
   });
 
   it('should call the login method when the login button is clicked', () => {
-    const loginComponentSpy = spyOn(component, 'onLogin');
-    this.loginButtonEl.triggerEventHandler('click', null);
+    spyOn(component, 'onLogin');
+    loginButtonEl.triggerEventHandler('click', null);
     expect(component.onLogin).toHaveBeenCalled();
   });
 
+  it('should contain a clear token button', () => {
+    expect(clearButtonEl.nativeElement.textContent).toBe('Clear Token');
+  });
+
+  it('should clear localStorage when the clear button is pressed', () => {
+    spyOn(component, 'onClearToken').and.callThrough();
+    localStorage.setItem('token', '123');
+    clearButtonEl.triggerEventHandler('click', null);
+    expect(component.onClearToken).toHaveBeenCalled();
+    expect(localStorage.getItem('token')).toBeNull();
+  });
 
 });
