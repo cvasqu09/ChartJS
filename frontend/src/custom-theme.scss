@@ -14,3 +14,7 @@ $my-app-theme: mat-dark-theme($my-theme-primary, $my-theme-accent, $my-theme-war
 body {
   background-color: $accent-color;
 }
+
+* {
+  font-family: 'Rubik', sans-serif;
+}
