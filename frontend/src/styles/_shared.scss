@@ -1,0 +1,12 @@
+@import '~@angular/material/theming';
+
+$primary-color: mat-color($mat-green, 500);
+$accent-color: mat-color($mat-grey, 800);
+
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #000000; // Lighter backgorund, return dark color
+  } @else {
+    @return #ffffff; // Darker background, return light color
+  }
+}

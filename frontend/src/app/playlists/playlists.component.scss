@@ -1,3 +1,5 @@
+@import '../../styles/shared';
+
 .container {
   display: flex;
   flex-direction: row;
@@ -15,6 +17,8 @@ mat-card-title {
 
 button {
   align-self: flex-end;
+  background-color: $primary-color;
+  color: set-text-color($primary-color);
 }
 
 .mb-3 {

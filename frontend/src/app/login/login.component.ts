@@ -1,7 +1,5 @@
 import { Component, OnInit, OnChanges } from '@angular/core';
-import { Router, ActivatedRoute, Params } from '@angular/router';
 import { URLSearchParams } from '@angular/http';
-import { HttpClient } from 'selenium-webdriver/http';
 import { LoginService } from '../services/login.service';
 import { TokenService } from '../services/token.service';
 import { CookieService } from 'ngx-cookie-service';

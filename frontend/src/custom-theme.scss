@@ -1,15 +1,16 @@
 @import '~@angular/material/theming';
+@import './styles/shared';
 
 @include mat-core();
 
 $my-theme-primary: mat-palette($mat-green);
-$my-theme-accent: mat-palette($mat-gray, 100, 900, A100);
+$my-theme-accent: mat-palette($mat-grey, 600, 400, 800);
 $my-theme-warn: mat-palette($mat-deep-orange);
 
 $my-app-theme: mat-dark-theme($my-theme-primary, $my-theme-accent, $my-theme-warn);
 
-$primary-color: mat-color($my-theme-primary);
-$accent-color: mat-color($my-theme-accent);
-$warning-color: mat-color($my-theme-warn);
-
 @include angular-material-theme($my-app-theme);
+
+body {
+  background-color: $accent-color;
+}
